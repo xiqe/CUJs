@@ -4,15 +4,16 @@ import _string from './Func/String'
 import _date from './Func/Date'
 import _array from './Func/Array'
 
-import _class from './Prototype/Class'
+import './Proto/Class'
 
 window.CUJs = window.CUJs || {};
-CUJs = {
-    Version: version,
-    String: _string,
-    Date: _date,
-    Array: _array,
-    Class: _class
-}
+[CUJs.Version,CUJs.Func,CUJs.Proto] = [
+    version,
+    {
+        String: _string,
+        Date: _date,
+        Array: _array
+    }
+]
 
 export default CUJs;
