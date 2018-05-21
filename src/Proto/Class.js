@@ -3,11 +3,17 @@ HTMLElement.prototype.hasClass = function(className) {
 }
 
 HTMLElement.prototype.addClass = function(className) {
-    this.classList.add(className);
+    let _arr = className.split(' ');
+    for(let i=0;i<_arr.length;i++){
+        this.classList.add(_arr[i]);
+    };
 }
 
 HTMLElement.prototype.removeClass = function(className) {
-    this.classList.remove(className);
+    let _arr = className.split(' ');
+    for(let i=0;i<_arr.length;i++){
+        this.classList.remove(_arr[i]);
+    };
 }
 
 HTMLElement.prototype.toggleClass = function(className, enable) {
