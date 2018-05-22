@@ -19,3 +19,9 @@ HTMLElement.prototype.removeClass = function(className) {
 HTMLElement.prototype.toggleClass = function(className, enable) {
     this.classList.toggle(className, enable);
 }
+HTMLElement.prototype.show = function() {
+    this.style.display = 'block';
+}
+HTMLElement.prototype.hide = function() {
+    this.style.display = 'none';
+}

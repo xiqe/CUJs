@@ -5,6 +5,9 @@ import _date from './Func/Date'
 import _array from './Func/Array'
 
 import './Proto/Class'
+import './Proto/Dom'
+
+import CountDown from './Func/countDown'
 
 window.CUJs = window.CUJs || {};
 [CUJs.Version,CUJs.Func,CUJs.Proto] = [
@@ -12,7 +15,8 @@ window.CUJs = window.CUJs || {};
     {
         String: _string,
         Date: _date,
-        Array: _array
+        Array: _array,
+        CountDown:CountDown
     }
 ]
 
