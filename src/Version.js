@@ -1,2 +1,5 @@
-const version = '1.0.0';
+import _package from "../package.json"
+
+const version = _package.version;
+
 export default version;

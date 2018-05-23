@@ -1,8 +1,8 @@
 {
-  "name": "cujs",
-  "version": "1.0.0",
-  "description": "Front-End Common Use Js",
-  "main": "index.js",
+  "name": "cuj",
+  "version": "1.0.14",
+  "description": "Common Use Js",
+  "main": "./dist/CUJs.js",
   "scripts": {
     "dev": "webpack --config webpack.dev.config.js",
     "start": "webpack-dev-server --config webpack.dev.config.js --color --progress"

@@ -11,10 +11,7 @@
         + less/                # css资源
         + img/                 # 图片资源
         + js/                  # js&jsx资源
-    + components/           # 公共组建目录
-    - format                # 格式化
   + dist/                # 编译输出目录
-  + example/               # 示例
   webpack.config.js        # webpack配置文件
   package.json             # 项目配置
   README.md                # 项目说明
