@@ -10,14 +10,12 @@ import './Proto/Dom'
 import CountDown from './Func/countDown'
 
 window.CUJs = window.CUJs || {};
-[CUJs.Version,CUJs.Func,CUJs.Proto] = [
-    version,
-    {
-        String: _string,
-        Date: _date,
-        Array: _array,
-        CountDown:CountDown
-    }
-]
+CUJs = {
+    Version: version,
+    String: _string,
+    Date: _date,
+    Array: _array,
+    CountDown:CountDown
+}
 
 export default CUJs;

@@ -11,7 +11,7 @@
         + less/                # css资源
         + img/                 # 图片资源
         + js/                  # js&jsx资源
-  + dist/                # 编译输出目录
+  + dist/                  # 编译输出目录
   webpack.config.js        # webpack配置文件
   package.json             # 项目配置
   README.md                # 项目说明
