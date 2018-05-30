@@ -1,18 +1,22 @@
 # CUJs
 基于ES6编写的常用JS函数
 
+## 函数
 
-#### 项目架构
+### CSS 类
 
-``` js
-- CUJs/                 # 项目名称
-  - src/                   # 开发目录
-    + resources/           # 资源目录
-        + less/                # css资源
-        + img/                 # 图片资源
-        + js/                  # js&jsx资源
-  + dist/                  # 编译输出目录
-  webpack.config.js        # webpack配置文件
-  package.json             # 项目配置
-  README.md                # 项目说明
-```
+#### hasClass(class)
+检查当前的元素是否含有某个特定的类，如果有，则返回true。
+#### addClass(class)
+为每个匹配的元素添加指定的类名，一个或多个要删除的CSS类名，请用空格分开。
+#### removeClass(class)
+从所有匹配的元素中删除全部或者指定的类，一个或多个要删除的CSS类名，请用空格分开。
+#### toggleClass(class)
+如果存在（不存在）就删除（添加）一个类。
+
+### 效果
+
+#### show()
+显示隐藏的匹配元素。
+#### hide()
+隐藏显示的元素。
