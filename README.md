@@ -38,3 +38,9 @@
 // abc.com?test=123
 CUJs.String.getQueryString('test')  // 123
 ```
+
+- limitText()
+``` js
+let abc = 'abc12345678'
+CUJs.String.getQueryString(abc,7)  // abc1234...
+```
