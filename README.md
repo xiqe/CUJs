@@ -1,8 +1,7 @@
 # CUJs
 基于ES6编写的常用JS函数
 
-## 函数
-### CSS 类
+## CSS 类
 
 - hasClass(class)
 
@@ -21,7 +20,8 @@
 如果存在（不存在）就删除（添加）一个类。
 
 
-### 效果
+
+## 效果
 
 - show()
 
@@ -32,7 +32,8 @@
 隐藏显示的元素。
 
 
-### String
+
+## String
 
 - getQueryString()
 ``` js
