@@ -1,6 +1,6 @@
 {
   "name": "cuj",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Common Use Js",
   "main": "./dist/CUJs.js",
   "scripts": {
