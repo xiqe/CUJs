@@ -44,3 +44,40 @@ CUJs.String.getQueryString('test')  // 123
 let abc = 'abc12345678'
 CUJs.String.getQueryString(abc,7)  // abc1234...
 ```
+
+
+## Array
+
+- unique(arr)
+``` js
+let arr = [1,3,4,5,8,5,3,9]
+CUJs.Array.unique(arr)  // [1,3,4,5,8,9]
+```
+
+
+## Date
+
+- format(fmt,date)
+``` js
+let _date = new Date();
+CUJs.Date.format('yyyy-MM-dd hh:mm:ss',_date)  // 2018-05-30 10:05:54
+CUJs.Date.format('yyyy-MM-dd',_date)  // 2018-05-30
+CUJs.Date.format('M月d日 hh:mm:ss',_date);  // 5月30日 10:05:54
+CUJs.Date.format('yyyy/MM/dd hh:mm',_date);  // 2018/05/30 10:05
+```
+
+
+## Function
+
+- CountDown(el,options)
+``` js
+var app = document.getElementById('app');
+var count = new CUJs.CountDown(app,{
+    countDownSeconds: 7,       //倒计时间设置
+    doubleDigit: true,          //'7'秒显示为'07'
+    secondsOnly: false,         //是否只显示秒
+    callback = () => {          //倒计时完回调函数
+        return false;
+    }
+})
+```
