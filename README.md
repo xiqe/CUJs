@@ -45,6 +45,12 @@ let abc = 'abc12345678'
 CUJs.String.getQueryString(abc,7)  // abc1234...
 ```
 
+- requestGetParamFormat(obj)
+``` js
+let abc = {name:'jack',age:18,birth:'1988-10-10'}
+CUJs.String.requestGetParamFormat(abc)  // ?name=jack&age=18&birth=1988-10-10
+```
+
 
 ## Array
 

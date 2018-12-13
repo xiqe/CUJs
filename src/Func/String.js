@@ -11,6 +11,14 @@ const _string = {
         } else {
             return txt;
         }
+    },
+
+    requestGetParamFormat: (obj) => {
+        let params = '';
+        Object.keys(obj).forEach(function(key,i){
+            (i==0)?params += `?${key}=${obj[key]}`:params += `&${key}=${obj[key]}`;
+        });
+        return params;
     }
 }
 
